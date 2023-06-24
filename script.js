@@ -1,7 +1,7 @@
 //your JS code here. If required.
 const getCurrentWeather = () => {
 			const url =
-				"https://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=e467712b257e418838be97cc881a71de";
+				"https://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=5c01fc9ace9d2ca46d9af2d700bf7db4";
 
 			fetch(url)
 				.then((response) => response.json())
